@@ -1,0 +1,9 @@
+.site-footer{
+	margin: 100px 0px;
+
+	@include desktop{
+		width: 700px;
+		margin: 100px auto;
+	}
+	
+}
