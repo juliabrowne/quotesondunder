@@ -1,3 +1,27 @@
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Why You Gotta Be So Mean 2';
+    src: url('../../fonts/KGWhYyOuGoTtABeSoMeAn2.eot');
+    src: url('../../fonts/KGWhYyOuGoTtABeSoMeAn2.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/KGWhYyOuGoTtABeSoMeAn2.woff2') format('woff2'),
+        url('../../fonts/KGWhYyOuGoTtABeSoMeAn2.woff') format('woff'),
+        url('../../fonts/KGWhYyOuGoTtABeSoMeAn2.ttf') format('truetype'),
+        url('../../fonts/KGWhYyOuGoTtABeSoMeAn2.svg#KGWhYyOuGoTtABeSoMeAn2') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Why You Gotta Be So Mean';
+    src: url('../../fonts/KGWhYyOuGoTtABeSoMeAn.eot');
+    src: url('../../fonts/KGWhYyOuGoTtABeSoMeAn.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/KGWhYyOuGoTtABeSoMeAn.woff2') format('woff2'),
+        url('../../fonts/KGWhYyOuGoTtABeSoMeAn.woff') format('woff'),
+        url('../../fonts/KGWhYyOuGoTtABeSoMeAn.ttf') format('truetype'),
+        url('../../fonts/KGWhYyOuGoTtABeSoMeAn.svg#KGWhYyOuGoTtABeSoMeAn') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
