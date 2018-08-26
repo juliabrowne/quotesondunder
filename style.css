@@ -644,6 +644,38 @@ object {
       -webkit-box-shadow: none;
               box-shadow: none; }
 
+/* 404 Page */
+fieldset {
+  border: none; }
+
+.search-form {
+  width: 300px;
+  white-space: nowrap;
+  position: relative; }
+
+.search-field {
+  width: 100%;
+  height: 30px;
+  font-size: 14px;
+  padding-left: 45px; }
+
+.search-submit {
+  background: white;
+  border-color: none;
+  text-shadow: none;
+  color: black;
+  font-family: Tahoma;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-top: 30px; }
+  .search-submit:hover {
+    background: black;
+    color: white;
+    border-color: none;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+
 .site-footer {
   margin-top: 35px;
   font-family: Tahoma;
