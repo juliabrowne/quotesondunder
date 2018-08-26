@@ -1,23 +1,16 @@
-# Quotes on Dev Starter
+# Quotes on Dunder
 
-A WordPress starter theme for the Quotes on Dev project, forked from Underscores.
+QoD is a WordPress theme forked from Underscores. It randomizes quotes from the TV show "The Office" and sorts them by specific categories and tsg. QoD also allows site visitors to submit their own quotes (which will then have to be approved by a moderator before being posted).
 
-## Installation
+## Main components:
 
-### 1. Download me (don't clone me!)
+* Fetching new quotes without page refresh:
+    * calling the ajax method on button click with javascript, then using html() to change the html within a specified element
+    * pushing the current page's slug onto url, which allows the user to navigate to a previously loaded quote by hitting the back button
 
-Then add me to your `wp-content/themes` directory.
+## To Use:
 
-### 2. Rename the `quotesondev-starter-master` directory
-
-Make sure that the theme directory name is project appropriate! Do you need `starter` or `master` in the directory name?
-
-### 3. Install the dev dependencies
-
-Next you'll need to run `npm install` **inside your theme directory** to install the npm packages you'll need for Gulp, etc.
-
-### 4. Update the proxy in `gulpfile.js`
-
-Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Browsersync proxy (so change `localhost[:port-here]/[your-dir-name-here]` to the appropriate localhost URL).
-
-And now would be a good time to `git init` :)
+* download files
+* add files to `wp-content/themes` directory
+* run npm install inside theme directory
+* and voilà!

@@ -82,27 +82,6 @@ function qod_scripts() {
 add_action('wp_enqueue_scripts', 'qod_scripts');
 
 
-
-// add_action('rest_api_init', 'qod_register_endpoints');
-// function qod_register_endpoints() {
-//     register_rest_route('qod', '/rand', array(
-//         'methods'  => 'GET',
-//     	'callback' => 'get_random'
-//     ));
-// }
-
-// /**
-//  * Get random posts
-//  * @return array
-//  */
-// function get_random() {
-// 	$posts = get_posts( array( 'orderby' => 'rand', 'posts_per_page' => 1) );
-// 	$post_meta = get_post_meta( $posts[0]->ID );
-// 	array_push($posts, $post_meta);
-// 	  return $posts;
-//   }
-
-
 /**
  * Custom functions that act independently of the theme templates.
  */
@@ -122,3 +101,25 @@ require get_template_directory() . '/inc/metaboxes.php';
  * Custom WP API modifications.
  */
  require get_template_directory() . '/inc/api.php';
+
+
+
+// Attempt at stretch goal:
+// add_action('rest_api_init', 'qod_register_endpoints');
+// function qod_register_endpoints() {
+//     register_rest_route('qod', '/rand', array(
+//         'methods'  => 'GET',
+//     	'callback' => 'get_random'
+//     ));
+// }
+
+// /**
+//  * Get random posts
+//  * @return array
+//  */
+// function get_random() {
+// 	$posts = get_posts( array( 'orderby' => 'rand', 'posts_per_page' => 1) );
+// 	$post_meta = get_post_meta( $posts[0]->ID );
+// 	array_push($posts, $post_meta);
+// 	  return $posts;
+//   }
