@@ -20,19 +20,19 @@ get_header(); ?>
                <div class="quote-submission-wrapper">
                   <form name="quoteForm" id="quote-submission-form">
                      <div>
-                        <label for="quote-author">Character</label>
+                        <label for="quote-author">Character:</label>
                         <input type="text" name="quote_author" id="quote-author" required aria-required="true">
                      </div>
                      <div>
-                        <label for="quote-content">Quote</label>
+                        <label for="quote-content">Quote:</label>
                         <textarea rows="3" cols="20" name="quote_content" id="quote-content" required aria-required="true"></textarea>
                      </div>
                      <div>
-                        <label for="quote-source">Season and Episode (e.g. S2E3)</label>
+                        <label for="quote-source">Season and Episode (e.g. S2E3):</label>
                         <input type="text" name="quote_source" id="quote-source">
                      </div>
                      <div>
-                        <label for="quote-source-url">URL of quote</label>
+                        <label for="quote-source-url">URL of quote:</label>
                         <input type="url" name="quote_source_url" id="quote-source-url">
                      </div>
 
@@ -44,7 +44,7 @@ get_header(); ?>
 
             <?php else : ?>
 
-               <p>Sorry, you must be logged in to submit a quote!</p>
+               <p>Sorry, you have to be logged in to submit a quote!</p>
 
                <p><?php echo sprintf( '<a href="%1s">%2s</a>', esc_url( wp_login_url() ), 'Click here to login.' ); ?></p>
 

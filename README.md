@@ -1,6 +1,6 @@
 # Quotes on Dunder
 
-QoD is a WordPress theme forked from Underscores. It randomizes quotes from the TV show "The Office" and sorts them by specific categories and tsg. QoD also allows site visitors to submit their own quotes (which will then have to be approved by a moderator before being posted).
+QoD is a WordPress theme forked from Underscores. It randomizes quotes from the TV show "The Office" and sorts them by specific categories and tags. QoD also allows site visitors to submit their own quotes (which will then have to be approved by a moderator before being posted).
 
 ## Main components:
 

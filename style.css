@@ -602,9 +602,58 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* All Archives Page */
+.browse-archives ul {
+  list-style: none; }
+
+.browse-archives li {
+  font-size: 12px; }
+
 /* Submit a Quote Page */
+.quote-submission-wrapper {
+  font-family: Tahoma;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-weight: normal;
+  font-size: 13px; }
+  .quote-submission-wrapper label {
+    padding: 5px; }
+  .quote-submission-wrapper input[type=text],
+  .quote-submission-wrapper input[type=url],
+  .quote-submission-wrapper textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  .quote-submission-wrapper button[type=button],
+  .quote-submission-wrapper input[type=submit] {
+    background: white;
+    border-color: none;
+    text-shadow: none;
+    color: black;
+    font-family: Tahoma;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 30px; }
+    .quote-submission-wrapper button[type=button]:hover,
+    .quote-submission-wrapper input[type=submit]:hover {
+      background: black;
+      color: white;
+      border-color: none;
+      text-shadow: none;
+      -webkit-box-shadow: none;
+              box-shadow: none; }
+
 .site-footer {
-  margin: 100px 0px; }
+  margin-top: 35px;
+  font-family: Tahoma;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px; }
+  .site-footer p {
+    text-align: center; }
+  .site-footer ul {
+    list-style: none; }
 
 body {
   line-height: 1.5;
@@ -614,31 +663,68 @@ body {
   font-family: Helvetica;
   padding: 40px 20px 0px 20px;
   font-weight: 300; }
-  body h1, body h2 {
-    font-family: Tahoma;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-weight: normal;
-    font-size: 16px; }
   body a {
     font-family: Tahoma;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-weight: normal;
-    font-size: 14px; }
-  body .source {
-    font-family: Tahoma;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    text-decoration: none;
+    color: grey; }
+    body a:hover {
+      color: white; }
+    body a:visited {
+      color: grey; }
+
+.hfeed-site-container {
+  max-width: 1080px;
+  margin: 0 auto; }
+
+.site-main h1,
+.site-main h2 {
+  font-family: Tahoma;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: normal;
+  font-size: 16px; }
+
+.site-main .source {
+  font-family: Tahoma;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px; }
+  .site-main .source a {
     font-size: 12px; }
-  body .entry-meta {
-    line-height: .5;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
+
+.site-main .entry-meta {
+  line-height: .5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: inline-block; }
+
+.site-main .entry-title {
+  margin-top: 8px;
+  margin-bottom: 15px; }
+
+.site-main button {
+  background: white;
+  border-color: none;
+  text-shadow: none;
+  color: black;
+  font-family: Tahoma;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-top: 20px; }
+  .site-main button:hover {
+    background: black;
+    color: white;
+    border-color: none;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none; }

@@ -16,8 +16,6 @@
       cache: false
     }).done(function (data) {
 
-console.log(data);
-
       $('.entry-content').html(data[0].content.rendered);
       $('.entry-title').html('&mdash;' + data[0].title.rendered)
 
