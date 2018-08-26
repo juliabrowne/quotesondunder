@@ -1,5 +1,16 @@
 .site-header {
-    // img {
-    //     width: auto;
-    // }
+    @include tablet {
+        width: 400px;
+    }
+}
+
+.logo { 
+    @include tablet {
+        display: inline;
+        margin-left: 50px;
+    }
+    @include desktop {
+        display: inline;
+        margin-left: 165px;
+    }
 }

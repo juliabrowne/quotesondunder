@@ -609,24 +609,24 @@ object {
   font-size: 12px; }
 
 /* Submit a Quote Page */
-.quote-submission-wrapper {
+.quote-submission {
   font-family: Tahoma;
   text-transform: uppercase;
   letter-spacing: .5px;
   font-weight: normal;
   font-size: 13px; }
-  .quote-submission-wrapper label {
+  .quote-submission label {
     padding: 5px; }
-  .quote-submission-wrapper input[type=text],
-  .quote-submission-wrapper input[type=url],
-  .quote-submission-wrapper textarea {
+  .quote-submission input[type=text],
+  .quote-submission input[type=url],
+  .quote-submission textarea {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box; }
-  .quote-submission-wrapper button[type=button],
-  .quote-submission-wrapper input[type=submit] {
+  .quote-submission button[type=button],
+  .quote-submission input[type=submit] {
     background: white;
     border-color: none;
     text-shadow: none;
@@ -635,14 +635,18 @@ object {
     text-transform: uppercase;
     padding: 10px;
     margin-top: 30px; }
-    .quote-submission-wrapper button[type=button]:hover,
-    .quote-submission-wrapper input[type=submit]:hover {
+    .quote-submission button[type=button]:hover,
+    .quote-submission input[type=submit]:hover {
       background: black;
       color: white;
       border-color: none;
       text-shadow: none;
       -webkit-box-shadow: none;
               box-shadow: none; }
+  @media (min-width: 1080px) {
+    .quote-submission {
+      margin-left: 150px;
+      margin-right: 150px; } }
 
 /* 404 Page */
 fieldset {
@@ -675,6 +679,20 @@ fieldset {
     text-shadow: none;
     -webkit-box-shadow: none;
             box-shadow: none; }
+
+@media (min-width: 620px) {
+  .site-header {
+    width: 400px; } }
+
+@media (min-width: 620px) {
+  .logo {
+    display: inline;
+    margin-left: 50px; } }
+
+@media (min-width: 1080px) {
+  .logo {
+    display: inline;
+    margin-left: 165px; } }
 
 .site-footer {
   margin-top: 35px;
@@ -728,16 +746,6 @@ body {
     font-size: 12px; }
 
 .site-main .entry-meta {
-  line-height: .5;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   display: inline-block; }
 
 .site-main .entry-title {
@@ -760,3 +768,8 @@ body {
     text-shadow: none;
     -webkit-box-shadow: none;
             box-shadow: none; }
+
+@media (min-width: 1080px) {
+  .site-main {
+    margin-left: 150px;
+    margin-right: 150px; } }
