@@ -1,16 +1,21 @@
 /*--------------------------------------------------------------
 # Page Templates
+# Include: - Archives Page
+           - Submit a Quote Page
+           - 404 Error Page
 --------------------------------------------------------------*/
 
 /* All Archives Page */
 
-.browse-archives {
-    ul {
-        list-style: none;
-    }
-    li {
-        font-size: 12px;
-    }
+.post-archives ul li,
+.category-archives ul li,
+.tag-archives ul li {
+    list-style: none;
+    font-size: 12px;
+    float: left;
+    margin-bottom: .5rem;
+    margin-right: 1.125rem;
+    font-style: normal;
 }
 
 

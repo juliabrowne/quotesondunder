@@ -28,9 +28,6 @@
       else {
         $('.entry-meta .source').empty();
       }
-      // else { 
-      //   $('.entry-meta .source').html(data[0]._qod_quote_source);
-      // }
 
       lastPage = document.URL;
 
